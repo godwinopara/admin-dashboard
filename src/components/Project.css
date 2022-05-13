@@ -1,0 +1,112 @@
+.transaction {
+    flex: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+ 
+.card {
+	background-color: white;
+	color: #272727;
+	padding: 20px;
+	border-radius: 10px;
+	border-color: tomato;
+	border-style: solid;
+	transition: 200ms;
+    max-width: 380px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.card:hover {
+	transition: 200ms;
+	border: 3px;
+	border-color: tomato;
+	border-style: solid;
+}
+
+.card-header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+
+}
+
+.profile {
+	width: 2.5rem;
+	height: 2.5rem;
+	background-color: tomato;
+	border-radius: 50%;
+	margin: 10px;
+	font-size: 20pt;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	justify-content: center;
+}
+
+.letter {
+	vertical-align: middle;
+}
+
+.card-title-group {
+	justify-content: center;
+}
+
+.card-title {
+	flex: 0.5;
+	font-size: large;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.card-date {
+	flex: 0.3;
+	font-size: small;
+	margin-top: 0;
+}
+
+.card-image {
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+    width: 350px;
+}
+.card-like-icon {
+	height: 25px;
+  color: #272727;
+}
+
+.card-text {
+	width: 350px;
+	font-size: medium;
+}
+
+.card-like-bar {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+.like-text {
+	font-size: small;
+	margin-left: 10px;
+}
+
+.increasel{
+ display: flex;
+}
+.increasel2{
+    color: white;
+    background-color:#6495ED;
+    margin-right:5px ;
+padding-right: 10px;
+font-size: medium;
+}
+.increasel3{
+    color: white;
+    background-color:red;
+    margin-right:5px ;
+padding-right: 10px;
+font-size: medium;
+}

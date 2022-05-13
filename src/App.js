@@ -4,6 +4,8 @@ import StatsCard from "./components/StatsCard";
 import Team from "./components/Team";
 import Client from "./components/Client";
 
+import Project from "./components/Project";
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,7 @@ function App() {
       <StatsCard />
       <Team />
       <Client />
+      <Project/>
     </div>
   );
 }
