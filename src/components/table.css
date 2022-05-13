@@ -1,0 +1,20 @@
+.table-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.table-header img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.name img {
+  margin-right: 10px;
+}
+
